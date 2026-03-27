@@ -1,20 +1,7 @@
-/*
-========================================
-APP INIT
-========================================
-*/
-
 function init() {
   renderApp();
 }
-
 init();
-
-/*
-========================================
-RENDER PRINCIPAL
-========================================
-*/
 
 function renderApp() {
   const app = document.getElementById("app");
@@ -27,6 +14,5 @@ function renderApp() {
 
   renderHeader();
   renderFooter();
-
   navegar("home");
 }
